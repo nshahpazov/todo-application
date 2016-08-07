@@ -6,7 +6,6 @@
 * bundle install
 * npm i bower -g
 * cd public
-* npm install
 * bower install
 * rails s (from the root directory)
 
