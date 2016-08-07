@@ -1,24 +1,12 @@
-# README
+# Todo Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version - 2.3.1
 
-Things you may want to cover:
+## Starting the Server
+* bundle install
+* npm i bower -g
+* cd public
+* npm install
+* bower install
+* rails s (from the root directory)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
