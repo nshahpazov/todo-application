@@ -1,3 +1,12 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  scope '/api' do
+    scope '/todos' do
+      get '/' => 'todo#index'
+      post '/' => 'todo#create'
+      scope '/:todo_name' do
+        get '/' => 'todo#show'
+        put '/' => 'todo#update'
+      end
+    end
+  end
 end
